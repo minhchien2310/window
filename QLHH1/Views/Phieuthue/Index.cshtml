@@ -1,0 +1,53 @@
+﻿@model QLHH1.Models.Phieuthue
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách phiếu thuê</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Quản lý phiếu thuê</h2>
+            <a asp-action="them" class="btn btn-primary">+ Thêm phiếu thuê</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover align-middle text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th><label asp-for="MaPt" class="control-label"></label></th>
+                        <th><label asp-for="NgayThue" class="control-label"></label></th>
+                        <th><label asp-for="NgayTra" class="control-label"></label></th>
+                        <th><label asp-for="Gia" class="control-label"></label></th>
+                        <th><label asp-for="MaKh" class="control-label"></label></th>
+                        <th><label asp-for="SoNgayThue" class="control-label"></label></th>
+                        <th><label asp-for="ThanhTien" class="control-label"></label></th>
+                        <th>Tác vụ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.ds)
+                    {
+                        <tr>
+                            <td>@item.MaPt</td>
+                            <td>@item.NgayThue.ToString("dd/MM/yyyy")</td>
+                            <td>@item.NgayTra.ToString("dd/MM/yyyy")</td>
+                            <td>@item.Gia.ToString("N0")</td>
+                            <td>@item.MaKh</td>
+                            <td>@item.SoNgayThue</td>
+                            <td>@item.ThanhTien.ToString("N0")</td>
+                            <td>
+                                <a asp-controller="Phieuthue" asp-action="xoa" asp-route-id="@item.MaPt" class="btn btn-danger btn-sm">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
