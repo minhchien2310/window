@@ -8,10 +8,10 @@ WORKDIR /src
 COPY ["QLHH1.csproj", "./"]
 RUN dotnet restore "QLHH1.csproj"
 COPY . .
-RUN dotnet build "QLHH1.csproj" -c Release -o /app/build
+RUN dotnet build "QLHH1.csproj" -c Release -o /app/build /p:BuildInParallel=false /p:UseSharedCompilation=false
 
 FROM build AS publish
-RUN dotnet publish "QLHH1.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "QLHH1.csproj" -c Release -o /app/publish /p:UseAppHost=false /p:BuildInParallel=false /p:UseSharedCompilation=false
 
 FROM base AS final
 WORKDIR /app
