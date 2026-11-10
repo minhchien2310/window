@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\onthigkwindow\\QLHH1\\QLHH1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\controllers\\phieuthuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\controllers\\phieuthuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\models\\qlhh1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\models\\qlhh1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\controllers\\phieuthuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\controllers\\phieuthuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|solutionrelative:qlhh1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB044D11-8394-5806-A3B9-383DBC97DCAF}|QLHH1\\QLHH1.csproj|c:\\onthigkwindow\\qlhh1\\qlhh1\\qlhh1\\views\\phieuthue\\xoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,24 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Dockerfile",
-              "RelativeDocumentMoniker": "QLHH1\\Dockerfile",
-              "ToolTip": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Dockerfile",
-              "RelativeToolTip": "QLHH1\\Dockerfile",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-10T03:07:14.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Program.cs",
               "RelativeDocumentMoniker": "QLHH1\\Program.cs",
@@ -112,27 +99,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PhieuthueController.cs",
               "DocumentMoniker": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Controllers\\PhieuthueController.cs",
               "RelativeDocumentMoniker": "QLHH1\\Controllers\\PhieuthueController.cs",
               "ToolTip": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Controllers\\PhieuthueController.cs",
               "RelativeToolTip": "QLHH1\\Controllers\\PhieuthueController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T09:04:24.66Z"
+              "WhenOpened": "2026-11-08T09:04:24.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "QLHH1Context.cs",
               "DocumentMoniker": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Models\\QLHH1Context.cs",
               "RelativeDocumentMoniker": "QLHH1\\Models\\QLHH1Context.cs",
               "ToolTip": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Models\\QLHH1Context.cs",
               "RelativeToolTip": "QLHH1\\Models\\QLHH1Context.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-08T09:01:48.199Z"
+              "WhenOpened": "2026-11-08T09:01:48.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Dockerfile",
+              "RelativeDocumentMoniker": "QLHH1\\Dockerfile",
+              "ToolTip": "C:\\onthigkwindow\\QLHH1\\QLHH1\\QLHH1\\Dockerfile",
+              "RelativeToolTip": "QLHH1\\Dockerfile",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-10T03:07:14.16Z"
             },
             {
               "$type": "Document",
