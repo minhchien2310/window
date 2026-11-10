@@ -2,13 +2,14 @@ using Microsoft.EntityFrameworkCore;
 using QLHH1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<QLHH1Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-builder.Services.AddDbContext<QLHH1Context>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
